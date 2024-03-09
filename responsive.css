@@ -1,0 +1,304 @@
+@media (max-width: 600px) {
+    * {
+        /*border: 1px solid red;*/
+    }
+    .main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main .logo {
+        text-align: left;
+    }
+
+    .main .list {
+        display: none;
+    }
+
+    .main .hamburger {
+        display: block;
+        width: 25px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .body {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .body .content {
+        display: block;
+        text-align: center;
+    }
+
+    .body .content .title {
+        position: absolute;
+        right: 80px;
+        top: 140px;
+        padding: 0px 0px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .body .content .text {
+        position: absolute;
+        left: 50px;
+        top: 230px;
+        padding: 5px 5px;
+        font-size: 16px;
+        /*width: 300px;*/
+    }
+
+    .body .content .work {
+        position: absolute;
+        width: 220px;
+        right: 120px;
+        top: 380px;
+    }
+
+
+    .body .youtube {
+        display: block;
+        position: absolute;
+        top: 500px;
+    }
+
+    .body .youtube .video {
+        position: absolute;
+        left: 60px;
+        width: 300px;
+    }
+
+    .body .youtube .icon {
+        position: absolute;
+        left: 170px;
+        top: 60px;
+        width: 100px;
+    }
+
+
+    .service {
+        display: block;
+        align-items: center;
+        position: relative;
+        top: 500px;
+    }
+
+    .service .content {
+        display: block;
+        position: absolute;
+        right: -220px;
+    }
+
+    .service .content .title {
+        font-size: 18px;
+        position: absolute;
+        right: 480px;
+        bottom: 30px;
+    }
+
+    .service .content .text {
+        position: absolute;
+        width: 600px;
+        padding: 0 150px;
+        right: 110px;
+    }
+
+
+    .service .list {
+        display: block;
+        position: absolute;
+        top: 240px;
+        left: 25px;
+    }
+
+    .service .list .item {
+        margin-bottom: 50px;
+    }
+
+
+    .service .list2 {
+        display: block;
+        position: absolute;
+        top: 1250px;
+        left: 25px;
+    }
+
+    .service .list2 .item {
+        width: 343px;
+        margin-bottom: 50px;
+    }
+
+    .service .order {
+        padding:  0 -180px;
+    }
+
+    .service .order .get {
+        width: 150px;
+    }
+
+    .service .order {
+        display: block;
+        position: absolute;
+        top: 1950px;
+        left: 25px;
+        width: 400px;
+        margin-bottom: 100px;
+        font-size: 10px;
+    }
+
+
+
+    .how {
+        display: block;
+        position: absolute;
+        top: 2900px;
+    } 
+
+    .how .question {
+        width: 180px;
+        padding-bottom: 200px;
+    }
+
+    .how .question .title {
+        font-size: 18px;
+    }
+
+    .how .question .text {
+        position: absolute;
+        left: -300px;
+        width: 700px;
+        text-align: left;
+        padding-right: 90px;
+    }
+
+    .how .list {
+        display: block;
+        column-gap: 300px;
+        padding-left: 40px;
+    }
+
+    .how .list .item {
+        padding-top: 500px;
+        text-align: left;
+    }
+
+    .how .list .image  {
+        text-align: left;
+    }
+
+    .how .list .content .title {
+        font-size:  18px;
+    }
+
+    .how .list .content .text {
+        font-size: 16px;
+        width: 300px;
+        padding-bottom: 40px;
+    }
+    
+    .how .list2 .content .title {
+        font-size:  18px;
+    }
+
+    .how .list2 .content .text {
+        font-size: 16px;
+        width: 300px;
+        padding-bottom: 40px;
+    }
+
+
+    .how .place {
+        display: block;
+        position: absolute;
+        right: 150px;
+        width: 150px;
+        bottom: -40px;
+        color: black;
+    }
+
+    .registrate {
+        display: none;
+        position: relative;
+        top: 4900px;
+        text-align: left;
+    }
+
+    .registrate .title {
+        font-size: 20px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .registrate .text {
+        font-size: 18px;
+        position: absolute;
+        left: 50px;
+        top: 80px;
+        width: 160px;
+        text-align: left;
+    }
+
+
+    .registrate .login {
+        margin-top: 350px;
+        margin-right: 640px;
+        
+    }
+
+
+    .footer {
+        display: block;
+        position: absolute;
+        top: 5300px;
+        padding-right: 300px;
+        padding-bottom: 150px;
+    }
+
+    .footer .list {
+        display: block;
+        text-align: left;
+        column-gap: 100px;
+    }
+
+    .footer .list .first {
+        display: block;
+        margin-bottom: 240px;
+        column-gap: 30px;
+    
+    }
+
+    .footer .list .first .title {
+        font-size: 18px;
+        text-align: left;
+        position: absolute;
+        right: 320px;
+    }
+
+    .footer .list .first .text {
+        font-size: 16px;
+        position: absolute;
+        right: 50px;
+        width:  400px;
+        padding-right: 200px;
+        margin-top: 20px;
+    }
+
+
+    .footer .list .site {
+        display: block;
+        position: absolute;
+        margin-right: 320px;
+        right: -200px;
+    }
+
+    .footer .list  .social {
+        display: block;
+        position: absolute;
+        right: 50px;
+    }
+}
